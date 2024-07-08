@@ -1,19 +1,19 @@
-# Project Name
+# Tristar Test
 
-This project is a Python application that includes a model_script. This README file provides instructions on how to set up the project environment and run the model_script.
+This project is for the Tristar test. This README file provides instructions on how to set up the project environment and run the model_script.
 
 ## Setup
 
 1. Clone the repository:
 
     ```shell
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/araghuram3/tristar_test.git
     ```
 
 2. Navigate to the project directory:
 
     ```shell
-    cd your-repo
+    cd tristar_test
     ```
 
 3. Create a virtual environment:
@@ -30,7 +30,7 @@ This project is a Python application that includes a model_script. This README f
       venv\Scripts\activate
       ```
 
-    - For macOS/Linux:
+    - For macOS/Linux (untested):
 
       ```shell
       source venv/bin/activate
@@ -45,9 +45,9 @@ This project is a Python application that includes a model_script. This README f
     This will install torch and torchvision cpu versions.
     I installed the GPU versions using:
     
-        ```shell
-        pip install torch torchvision -f https://download.pytorch.org/whl/cu121/torch_stable.html
-        ```
+    ```shell
+    pip install torch torchvision -f https://download.pytorch.org/whl/cu121/torch_stable.html
+    ```
     because I have a CUDA 12.1 on my machine.
 
 6. Add data folder to the project directory and add the data files to the data folder.
