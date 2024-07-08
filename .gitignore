@@ -1,0 +1,18 @@
+# Python
+*.pyc
+__pycache__/
+.venv/
+*.env
+
+# Pipenv
+Pipfile.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+
+# Data files
+/data/
