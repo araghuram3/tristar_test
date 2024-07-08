@@ -53,7 +53,7 @@ This project is for the Tristar test. This README file provides instructions on 
 6. Add data folder to the project directory and add the data files to the data folder.
 Structure should look like this:
     ```shell
-    your-repo/
+    tristar_test/
     ├── data/
     │   ├── train/
     │   │   ├── Benign/
